@@ -9,7 +9,7 @@ const Character = (props) => {
     return(
         <div className = "Character" onClick = {()=>changeVistaMaximizada(id)} >
             <div className = "Image">
-                <img src={image} alt={name}/>
+                <img className="foto" src={image} alt={name}/>
                 <div className = "InfoImage">
                     <h1>{name}</h1>
                     <span>id: {id}</span>
